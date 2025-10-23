@@ -35,7 +35,7 @@ El sistema es capaz de **leer código fuente de un lenguaje diseñado ad hoc**, 
 - **Lenguaje:** Java  
 - **Paradigma:** Programación modular  
 - **Conceptos clave:** AFD, gramáticas LL(1), parsing descendente, acciones semánticas  
-- **Entorno:** IntelliJ / Eclipse (compatible con consola Java)  
+- **Entorno:** Visual Studio Code (compatible con consola Java)  
 
 ---
 
