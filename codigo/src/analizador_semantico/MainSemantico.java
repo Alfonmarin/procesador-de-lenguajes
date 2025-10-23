@@ -5,9 +5,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.Stack;
-
 public class MainSemantico {
 
     public static void main(String[] args) throws IOException {
@@ -27,26 +28,30 @@ public class MainSemantico {
             }
         }
 
-        File codigoFuente = new File(
-                "Códigos de prueba\\"+codigoElegido+"\\Código.txt");
+        Path basePath = Paths.get(System.getProperty("user.dir")); // raíz del proyecto
+        Path carpetaCodigo = basePath.resolve(Paths.get("codigo", "Códigos de prueba", codigoElegido));
 
-        File archivoTabla = new File(
-                "Códigos de prueba\\"+codigoElegido+"\\TS.txt");
 
-        File archivoTokens = new File(
-                "Códigos de prueba\\"+codigoElegido+"\\Tokens.txt");
+        // Mostrar ruta final para depuración
+        System.out.println("📂 Buscando archivos en: " + carpetaCodigo.toAbsolutePath());
 
-        File archivoErrores = new File(
-                "Códigos de prueba\\"+codigoElegido+"\\Errores.txt");
+        // Crear objetos File usando rutas absolutas seguras (convertir Path a File)
+        File codigoFuente = carpetaCodigo.resolve("Código.txt").toFile();
+        File archivoTabla = carpetaCodigo.resolve("TS.txt").toFile();
+        File archivoTokens = carpetaCodigo.resolve("Tokens.txt").toFile();
+        File archivoErrores = carpetaCodigo.resolve("Errores.txt").toFile();
+        File archivoParse = carpetaCodigo.resolve("Parse.txt").toFile();
 
-        File archivoParse = new File(
-                "Códigos de prueba\\"+codigoElegido+"\\Parse.txt");
+        // === 3. Comprobar existencia del archivo de entrada ===
+        if (!codigoFuente.exists()) {
+            System.err.println("❌ No se encontró el archivo: " + codigoFuente.getAbsolutePath());
+            System.err.println("Asegúrate de que la carpeta '" + codigoElegido + "' contiene el archivo 'Código.txt'.");
+            return;
+        }
 
-        if (archivoTokens.exists() && archivoTabla.exists() && archivoErrores.exists() && archivoParse.exists()) {
-            archivoTokens.delete();
-            archivoTabla.delete();
-            archivoErrores.delete();
-            archivoParse.delete();
+        // === 4. Limpiar archivos antiguos ===
+        for (File f : new File[]{archivoTokens, archivoTabla, archivoErrores, archivoParse}) {
+            if (f.exists()) f.delete();
         }
 
         AnalizadorLexicoAS AL = new AnalizadorLexicoAS(codigoFuente);
