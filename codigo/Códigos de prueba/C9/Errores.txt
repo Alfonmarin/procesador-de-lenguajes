@@ -1,0 +1,1 @@
+Error Semántico en línea 13: Se está llamando a la función 'suma' con un parámetro de tipo incorrecto.

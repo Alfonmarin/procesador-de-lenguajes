@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Analizador Semántico",
+      "request": "launch",
+      "mainClass": "analizador_semantico.MainSemantico",
+      "projectName": "procesador-de-lenguajes"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+/* Código con error léxico*/
+
+var int valorGlobal;
+valorGlobal = 10;
+var string mensaje;
+mensaje  = 
+'Error léxico';
+
+/* Función principal */
+function void main(void) {
+    var int numero;
+
+    /* Uso de un símbolo no válido */
+    numero #= 2; /* El Gestor de Errores detectará el error correctamente. */
+
+    /* Mostrar resultado */
+    output 'Valor actualizado: ';
+    output numero;
+}
+
+/* Iniciar el programa */
+main();

@@ -1,0 +1,14 @@
+/* Variables globales */
+var int numero5;
+var string mensaje;
+mensaje = 'Este es un mensaje';
+
+/* Función principal */
+function void main(void) {
+    /* Intento de asignar una cadena a una variable entera */
+    numero = 'Error semántico'; /* Error: Asignación de un string a una variable int */
+
+    /* Mostrar resultados */
+    output 'El valor de la variable es: ';
+    output numero;
+}

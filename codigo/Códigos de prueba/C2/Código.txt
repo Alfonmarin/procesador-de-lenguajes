@@ -1,0 +1,24 @@
+var int num1;
+num1 *= 47; /* Número 1 */
+var int num2;
+num2 = 56; /* Número 2 */
+
+output 'Suma de los dos números num1 y num2: ';
+output (num1 + num2);
+
+function string cad(int num1, string r){
+    if((num1 + num2) == 103)
+        return r;
+    
+}
+
+output 'Próxima función: hola';
+
+function void hola(void){
+    output 'Contenido de la función: ';
+    output 'HOLAAAAAAAAAAAA';
+}
+
+/* **Fin de códigoo
+oooooooo*oooo
+oo */

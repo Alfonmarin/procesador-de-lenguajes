@@ -1,0 +1,32 @@
+output 'Se presenta un error semántico:';
+output 'El gestor \n de errores lo tratará debidamente';
+
+/* Comentario inutil con variable inutil */
+var boolean boola;
+
+/* Función que devuelve la suma de 3 variables no declaradas previamente, y 
+por tanto, se convierten en globales y enteras */
+function int noDeclarada(void){
+    return num1 + num2 + num3;
+}
+
+/* Función para clasificar un número */
+function void clasificar(int numero) {
+    var string cad;
+    cad = 'cadena';
+    switch (cad) { /* Error: Se usa un string en lugar de un entero */
+        case 1:
+            output 'Es uno';
+            break;
+        case 2:
+            output 'Es dos';
+            break;
+        case 3:
+            output 'Es tres';
+            break;
+    }
+    var int nunca;
+    var boolean sellega;
+}
+
+/* Nunca se llega aquí...*/

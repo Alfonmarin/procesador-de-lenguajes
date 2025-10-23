@@ -1,0 +1,1 @@
+Error Sintáctico en línea 0: La instrucción 'function' debe especificar un tipo de retorno válido (int, boolean, string o void).

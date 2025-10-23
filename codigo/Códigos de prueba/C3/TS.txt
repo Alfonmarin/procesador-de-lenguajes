@@ -1,0 +1,63 @@
+---------------------------------------------------
+Contenido de la Tabla de Simbolos Global #0 : 
+---------------------------------------------------
+* LEXEMA : 'contadorGlobal1'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'mensajeGlobal'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 1
+
+--------- ----------
+* LEXEMA : 'contadorGlobal'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 2
+
+--------- ----------
+* LEXEMA : 'clasificarNumero'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam1 : 'entero'
+  + ModoParam1 : 1
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'EtclasificarNumero1'
+
+--------- ----------
+* LEXEMA : 'main'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etmain2'
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #1 : 
+---------------------------------------------------
+* LEXEMA : 'numero'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #2 : 
+---------------------------------------------------
+* LEXEMA : 'numero'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'resultado'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 1
+
+--------- ----------

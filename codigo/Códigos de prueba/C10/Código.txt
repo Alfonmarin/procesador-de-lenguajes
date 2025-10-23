@@ -1,0 +1,12 @@
+
+/* Función principal sin tipo de retorno --> Error sintáctico */
+function main(void) {
+    numero = 10; 
+
+    /* Mostrar el valor de la variable */
+    output 'El valor de la variable es: ';
+    output numero;
+}
+
+/* Iniciar el programa */
+main();

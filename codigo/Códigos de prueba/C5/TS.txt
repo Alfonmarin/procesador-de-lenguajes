@@ -1,0 +1,39 @@
+---------------------------------------------------
+Contenido de la Tabla de Simbolos Global #0 : 
+---------------------------------------------------
+* LEXEMA : 'evaluarNumero'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam1 : 'entero'
+  + ModoParam1 : 1
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'EtevaluarNumero1'
+
+--------- ----------
+* LEXEMA : 'main'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etmain2'
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #1 : 
+---------------------------------------------------
+* LEXEMA : 'numero'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #2 : 
+---------------------------------------------------
+* LEXEMA : 'valor'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------

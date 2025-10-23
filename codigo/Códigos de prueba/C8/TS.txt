@@ -1,0 +1,63 @@
+---------------------------------------------------
+Contenido de la Tabla de Simbolos Global #0 : 
+---------------------------------------------------
+* LEXEMA : 'boola'
+  ATRIBUTOS:
+  + tipo : 'logico'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'num1'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 1
+
+--------- ----------
+* LEXEMA : 'num2'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 2
+
+--------- ----------
+* LEXEMA : 'num3'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 3
+
+--------- ----------
+* LEXEMA : 'noDeclarada'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'EtnoDeclarada1'
+
+--------- ----------
+* LEXEMA : 'clasificar'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam1 : 'entero'
+  + ModoParam1 : 1
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etclasificar2'
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #1 : 
+---------------------------------------------------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #2 : 
+---------------------------------------------------
+* LEXEMA : 'numero'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'cad'
+  ATRIBUTOS:
+  + tipo : 'cadena'
+  + despl : 1
+
+--------- ----------

@@ -1,0 +1,1 @@
+Error Semántico en línea 17: La entrada con lexema 'cad' no es de tipo entero y debe serlo, ya que se está evaluando en un switch.

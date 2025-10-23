@@ -1,0 +1,20 @@
+---------------------------------------------------
+Contenido de la Tabla de Simbolos Global #0 : 
+---------------------------------------------------
+* LEXEMA : 'numero'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'main'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'logico'
+  + EtiqFuncion : 'Etmain1'
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #1 : 
+---------------------------------------------------

@@ -1,0 +1,17 @@
+/* Código con error semántico en la llamada a una función */
+
+/* Función que suma dos números enteros */
+function int suma(int a, int b) {
+    return a + b;
+}
+
+/* Función principal */
+function void main(void) {
+    var string mensaje;
+
+    /* Llamada con un parámetro de tipo incorrecto */
+    output suma(5, mensaje); /* Error: Se pasa un string donde se espera un int */
+
+    output 'El resultado es: ';
+    output resultado;
+}

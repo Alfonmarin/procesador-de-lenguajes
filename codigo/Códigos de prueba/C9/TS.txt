@@ -1,0 +1,47 @@
+---------------------------------------------------
+Contenido de la Tabla de Simbolos Global #0 : 
+---------------------------------------------------
+* LEXEMA : 'suma'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 2
+  + TipoParam1 : 'entero'
+  + ModoParam1 : 1
+  + TipoParam2 : 'entero'
+  + ModoParam2 : 1
+  + TipoRetorno : 'entero'
+  + EtiqFuncion : 'Etsuma1'
+
+--------- ----------
+* LEXEMA : 'main'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 0
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'Etmain2'
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #1 : 
+---------------------------------------------------
+* LEXEMA : 'a'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'b'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 1
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #2 : 
+---------------------------------------------------
+* LEXEMA : 'mensaje'
+  ATRIBUTOS:
+  + tipo : 'cadena'
+  + despl : 0
+
+--------- ----------

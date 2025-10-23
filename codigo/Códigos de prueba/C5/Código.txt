@@ -1,0 +1,31 @@
+
+/* Función para evaluar un número */
+function void evaluarNumero(int numero) {
+    switch (numero) {
+        case 10:
+            output 'Es un diez';
+            break;
+        case 20:
+            output 'Es un veinte';
+            break;
+        case 30:
+            output 'Es un treinta';
+            break;
+    }
+}
+
+/* Función principal */
+function void main(void) {
+    var int valor;
+
+    /* Evaluar el número */
+    evaluarNumero(valor);
+
+    /* Actualizar el valor */
+    valor *= 2;
+    output 'El valor actualizado es: ';
+    output valor;
+}
+
+/* Iniciar el programa */
+main();

@@ -1,0 +1,40 @@
+---------------------------------------------------
+Contenido de la Tabla de Simbolos Global #0 : 
+---------------------------------------------------
+* LEXEMA : 'z'
+  ATRIBUTOS:
+  + tipo : 'logico'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'num1'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 1
+
+--------- ----------
+* LEXEMA : 'determinarDia'
+  ATRIBUTOS:
+  + tipo : 'funcion'
+  + numParam : 1
+  + TipoParam1 : 'entero'
+  + ModoParam1 : 1
+  + TipoRetorno : 'vacio'
+  + EtiqFuncion : 'EtdeterminarDia1'
+
+--------- ----------
+---------------------------------------------------
+Contenido de la Tabla de Simbolos de la funcion con numero de etiqueta #1 : 
+---------------------------------------------------
+* LEXEMA : 'dia'
+  ATRIBUTOS:
+  + tipo : 'entero'
+  + despl : 0
+
+--------- ----------
+* LEXEMA : 'afterSwitch'
+  ATRIBUTOS:
+  + tipo : 'cadena'
+  + despl : 1
+
+--------- ----------

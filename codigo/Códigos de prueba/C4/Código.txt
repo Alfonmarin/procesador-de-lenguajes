@@ -1,0 +1,40 @@
+
+/* Código corto pero eficiente */
+var boolean z;
+
+var int num1;
+num1 = 4456;
+
+output '--PRINT DE NUM1 --';
+output num1;
+
+
+/* Función para determinar el día de la semana */
+function void determinarDia(int dia) {
+    switch (dia) {
+        case 1:
+            output 'Lunes';
+            break;
+        case 2:
+            output 'Martes';
+            break;
+        case 3:
+            output 'Miércoles';
+            break;
+        case 4:
+            output 'Jueves';
+            break;
+        case 5:
+            output 'Viernes';
+            break;
+        case 6:
+            output 'Sábado';
+            break;
+        case 7:
+            output 'Domingo';
+            break;
+    }
+    var string afterSwitch;
+    output
+    afterSwitch;
+}

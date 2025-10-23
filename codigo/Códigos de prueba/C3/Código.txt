@@ -1,0 +1,45 @@
+
+/* Variables globales */
+var int contadorGlobal1;
+
+/* Función para clasificar números */
+function void clasificarNumero (int numero) {
+    switch (numero) {
+        case 1:
+            output 'Es uno';
+            break;
+        case 2:
+            output 'Es dos';
+            break;
+        case 3:
+            output 'Es tres';
+    }
+}
+
+/* Función principal */
+function void main(void) {
+    /* Variables locales */
+    var int numero;
+
+    numero *= 2;
+    var int resultado;
+
+    /* Mostrar mensaje global */
+    output mensajeGlobal;
+
+    /* Clasificar un número */
+    clasificarNumero(numero);
+
+    /* Operador especial: Asignación con multiplicación */
+    numero *= 3;
+    output 'Resultado después de multiplicar: ';
+    output numero;
+
+    /* Actualización del contador global */
+    contadorGlobal *= 2;
+    output 'Valor del contador global: ';
+    output contadorGlobal;
+}
+
+/* Iniciar el programa */
+main();

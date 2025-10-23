@@ -1,0 +1,22 @@
+<FUNCTION, >
+<ID, 0>
+<PARENTABRE, >
+<VOID, >
+<PARENTCIERRA, >
+<LLAVEABRE, >
+<ID, 1>
+<IGUAL, >
+<ENTERO, 10>
+<PUNTYCOM, >
+<OUTPUT, >
+<CADENA, "El valor de la variable es: ">
+<PUNTYCOM, >
+<OUTPUT, >
+<ID, 1>
+<PUNTYCOM, >
+<LLAVECIERRA, >
+<ID, 0>
+<PARENTABRE, >
+<PARENTCIERRA, >
+<PUNTYCOM, >
+<EOF, >

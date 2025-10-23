@@ -1,0 +1,43 @@
+/* Declaración de variables
+ globales de los 3 tipos pos
+ ibles */
+
+var int x; x *= 6;
+var string cadena;
+cadena = 'Pruebaaaaaaaaaaaaaaaaaa';
+
+var boolean bol;
+
+output 'Contenido de cadena: \n';
+output cadena; output 'Asigna el valor a la variables x:';
+input x;
+
+/* Declaración de una 
+función para imprimir parámetros en función de un valor */
+
+function void impriParam  (int valor, string cad1, 
+string cad2, string cad3){
+
+    var int aux;
+    aux = valor;
+    var boolean z;
+
+    switch (valor){
+        case 1: output cad1;
+        break;
+        case 2: output cad2;
+        case 3: output cad3;
+        break;
+    }
+
+    var int aux2;
+    aux2 *= aux;
+}
+
+/* Declaración de una función para comprobar si dos números son iguales */
+
+/* function boolean check(int valor1, int valor2){
+    return valor1 == valor 2;
+} */
+
+/* Fin de código */
